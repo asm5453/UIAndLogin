@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/nittanyLionImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/nittany_lion"
@@ -29,7 +29,7 @@
         >
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/emailTextView"
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -40,7 +40,7 @@
 
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/passwordTextView"
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -50,15 +50,15 @@
             android:hint="Password"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/loginButton"
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="120dp"
-            android:text="Login" />
+            android:text="@string/login" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/orTextView"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:text="or"
@@ -66,11 +66,11 @@
             android:textAlignment="center"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/signUpButton"
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Sign Up" />
+            android:text="@string/sign_up" />
     </LinearLayout>
 
 

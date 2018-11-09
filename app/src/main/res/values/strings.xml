@@ -1,3 +1,33 @@
 <resources>
+    // Menu Title Strings
     <string name="app_name">AndroidUIandLogin-AdamMoyer</string>
+    <string name="users_menu_title">Users</string>
+    <string name="signup_menu_title">Sign Up</string>
+    <string name="welcome_menu_title">Welcome</string>
+    <string name="login_menu_title">Log In or Sign Up</string>
+
+
+    <string name="view_all_users_button_title">View All Users</string>
+    <string name="login_button_title">Login</string>
+    <string name="signup_button_title">Sign Up</string>
+    <string name="back_button_title">Back</string>
+    <string name="confirm_button_title">Confirm</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="back">Back</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+
+    <string name="view_all_users">View All Users</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="username_hint">Username</string>
+    <string name="birthday_hint">Birthday</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="incorrect_password_message">Password is Incorrect</string>
+    <string name="user_not_found_message">User Not Found</string>
+    <string name="could_not_add_user_message">Could Not Add User:</string>
+    <string name="user_created_message">User Successfully Created</string>
 </resources>
